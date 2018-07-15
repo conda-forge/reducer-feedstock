@@ -16,14 +16,15 @@ for calibrating astronomical images.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/reducer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/reducer-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/reducer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/reducer-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/reducer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/reducer-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/reducer-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/reducer-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/reducer/badges/version.svg)](https://anaconda.org/conda-forge/reducer)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/reducer/badges/downloads.svg)](https://anaconda.org/conda-forge/reducer)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-reducer-green.svg)](https://anaconda.org/conda-forge/reducer) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/reducer.svg)](https://anaconda.org/conda-forge/reducer) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/reducer.svg)](https://anaconda.org/conda-forge/reducer) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/reducer.svg)](https://anaconda.org/conda-forge/reducer) |
 
 Installing reducer
 ==================
