@@ -15,7 +15,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   entry_points:
     - reducer = reducer:main
   script: python -m pip install --no-deps --ignore-installed .
@@ -34,7 +34,7 @@ requirements:
     - ipywidgets >=7
     - msumastro >=0.9
     - ccdproc >=1.2
-    - matplotlib
+    - matplotlib-base
     - dask
 
 test:
