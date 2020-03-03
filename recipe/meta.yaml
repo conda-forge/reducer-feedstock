@@ -1,24 +1,21 @@
 {% set name = "reducer" %}
-{% set version = "0.4.1" %}
-{% set file_ext = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash_value = "77a8cc5e48adc360e044e0eaf4ad39e2aced049d1d015f0cad6046ee7ef6dfde" %}
+{% set version = "0.4.3" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  fn: '{{ name }}-{{ version }}.{{ file_ext }}'
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
-  '{{ hash_type }}': '{{ hash_value }}'
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 6d9e27276ab9c29230a187192ad0849bb6fa72e1d6e4d395c3b4fd18f2edb148
 
 build:
   noarch: python
-  number: 2
+  number: 0
   entry_points:
     - reducer = reducer:main
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
