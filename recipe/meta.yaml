@@ -20,10 +20,9 @@ build:
 requirements:
   host:
     - pip
-    - python
-    - setuptools
+    - python >=3
   run:
-    - python
+    - python >=3
     - astropy >=2.0
     - numpy
     - scipy
