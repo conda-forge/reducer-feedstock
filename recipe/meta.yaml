@@ -20,16 +20,16 @@ build:
 requirements:
   host:
     - pip
-    - python >=3
+    - python >=3.6
   run:
-    - python >=3
-    - astropy >=2.0
+    - python >=3.6
+    - astropy >=4
     - numpy
     - scipy
     - scikit-image
-    - ipywidgets >=7
-    - msumastro >=0.9
-    - ccdproc >=1.2
+    - ipywidgets >=7.5
+    - msumastro >=1
+    - ccdproc >=2
     - matplotlib-base
     - dask
 
