@@ -1,5 +1,5 @@
 {% set name = "reducer" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6d9e27276ab9c29230a187192ad0849bb6fa72e1d6e4d395c3b4fd18f2edb148
+  sha256: 8fd2d2ba1bb5a3b0a17a928fa783f02ed42243cda3f023d5c45404d2f409818b
 
 build:
   noarch: python
