@@ -1,11 +1,11 @@
-About reducer
-=============
+About reducer-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reducer-feedstock/blob/main/LICENSE.txt)
 
 Home: http://reducer.readthedocs.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/reducer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Jupyter widget-based package for reducing FITS images
 
