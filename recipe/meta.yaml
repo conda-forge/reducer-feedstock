@@ -1,5 +1,5 @@
 {% set name = "reducer" %}
-{% set version = "0.5.1" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e6f97b7a7f9bd9fca75b6426b0593676643e4ba45b5271245d7061747bd4ce30
+  sha256: 957b14ba27f73795960b9be3c94ab93bc1277be487ef969e909fa03893ae13f7
 
 build:
   noarch: python
@@ -20,9 +20,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.9
+    - hatchling
+    - hatch-vcs
   run:
-    - python >=3.6
+    - python >=3.9
     - astropy >=4
     - numpy
     - scipy
