@@ -20,9 +20,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.9
+    - hatchling
+    - hatch-vcs
   run:
-    - python >=3.6
+    - python >=3.9
     - astropy >=4
     - numpy
     - scipy
@@ -32,6 +34,7 @@ requirements:
     - ccdproc >=2
     - matplotlib-base
     - dask
+    - jupyter-app-launcher
 
 test:
   imports:
