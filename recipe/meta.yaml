@@ -34,7 +34,6 @@ requirements:
     - ccdproc >=2
     - matplotlib-base
     - dask
-    - jupyter-app-launcher
 
 test:
   imports:
