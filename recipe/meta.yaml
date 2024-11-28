@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - reducer = reducer:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
@@ -25,7 +25,7 @@ requirements:
     - hatch-vcs
   run:
     - python >=3.9
-    - astropy >=4
+    - astropy-base >=4
     - numpy
     - scipy
     - scikit-image
